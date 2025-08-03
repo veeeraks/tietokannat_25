@@ -49,7 +49,6 @@ function(request, response) {
 
 // DELETE -metodi, poistetaan kirja idn perusteella
 // localhost:3000/books/5
-// {"message": "Book deleted successfully"}
 router.delete('/:id', 
 function(request, response) {
   book.delete(request.params.id, function(err, dbResult) {
