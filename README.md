@@ -1,1 +1,1 @@
-Tehtävä 20: CRUD.
+Tietokannat ja rajapinnat kurssin tehtävät.
