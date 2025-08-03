@@ -20,14 +20,13 @@ Kurssin harjoitustyö. Sovellus käyttää Node.js:ää, Expressiä ja MySQL:ä�
     - toiminnan testaus, jotta voidaan tarkistaa reagoiko tietokanta oikein
 
 ## ER-diagrammi
-    ![Harjoitustyön ER-diagrammi]
-
-    - taulut: Opiskelija, Arviointi, Opintojakso
-    - Opiskelija- ja Opintojakso-taulut sisältävät id-kentät primary keynä, ne täytetään auto incrementillä eivätkä ne voi olla koskaan NULL
-    - Arviointi-taulussa on foreign keynä edeltävien taulujen primary keyt, jotta opiskelija ja opintojakso saadaan yhdistettyä toisiinsa
-    - Opiskelijan ja Opintojaksojen välillä oleva suhde voi olla monesta moneen, mutta, se ei ole sallittu, joten välissä oleva Arviointi –taulu mahdollistaa tämän
-    - yhteydet taulujen ovat identifying, koska foreign key on osa primary keytä eli Arviointi -taulua ei voi olla olemassa ilman Opiskelija ja Opintojakso -tauluja
-    - Opiskelija- ja Opintojaksojen välinen suhde Arviointi tauluun on yhdestä moneen, sillä esim. yhdellä opiskelijalla voi olla monta eri arviointia
+- kuva kansiossa
+- taulut: Opiskelija, Arviointi, Opintojakso
+- Opiskelija- ja Opintojakso-taulut sisältävät id-kentät primary keynä, ne täytetään auto incrementillä eivätkä ne voi olla koskaan NULL
+- Arviointi-taulussa on foreign keynä edeltävien taulujen primary keyt, jotta opiskelija ja opintojakso saadaan yhdistettyä toisiinsa
+- Opiskelijan ja Opintojaksojen välillä oleva suhde voi olla monesta moneen, mutta se ei ole sallittua, joten välissä oleva Arviointi –taulu mahdollistaa tämän
+- yhteydet taulujen ovat identifying, koska foreign key on osa primary keytä eli Arviointi -taulua ei voi olla olemassa ilman Opiskelija ja Opintojakso -tauluja
+- Opiskelija- ja Opintojaksojen välinen suhde Arviointi tauluun on yhdestä moneen, sillä esim. yhdellä opiskelijalla voi olla monta eri arviointia
 
 
 
