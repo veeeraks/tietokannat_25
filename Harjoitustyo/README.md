@@ -3,7 +3,7 @@
 Kurssin harjoitustyö. Sovellus käyttää Node.js:ää, Expressiä ja MySQL:ää. Mukana on REST-API ja SQL-proseduurit (+MCV). Sovellus käsittelee opintosuorituksia tietokannassa.
 
 ## Sisältö
- Tietokanta, taulut, viiteavaimet
+- Tietokanta, taulut, viiteavaimet
 - MySQL-proseduurit: `UusiSuoritus`, `PoistaSuoritus`
 - CRUD-toiminnot
 - Testaus: Postman
