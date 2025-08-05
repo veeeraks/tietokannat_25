@@ -3,9 +3,9 @@
 Kurssin harjoitustyö. Sovellus käyttää Node.js:ää, Expressiä ja MySQL:ää. Mukana on REST-API ja SQL-proseduurit (+MCV). Sovellus käsittelee opintosuorituksia tietokannassa.
 
 ## Sisältö
-- CRUD-toiminnot
-- Viiteavaimet
+ Tietokanta, taulut, viiteavaimet
 - MySQL-proseduurit: `UusiSuoritus`, `PoistaSuoritus`
+- CRUD-toiminnot
 - Testaus: Postman
 
 ## Toimintalogiikka
@@ -27,6 +27,8 @@ Kurssin harjoitustyö. Sovellus käyttää Node.js:ää, Expressiä ja MySQL:ä�
 - Opiskelijan ja Opintojaksojen välillä oleva suhde voi olla monesta moneen, mutta se ei ole sallittua, joten välissä oleva Arviointi –taulu mahdollistaa tämän
 - yhteydet taulujen ovat identifying, koska foreign key on osa primary keytä eli Arviointi -taulua ei voi olla olemassa ilman Opiskelija ja Opintojakso -tauluja
 - Opiskelija- ja Opintojaksojen välinen suhde Arviointi tauluun on yhdestä moneen, sillä esim. yhdellä opiskelijalla voi olla monta eri arviointia
+
+Linkki videoon: https://gofile.io/d/F3frNu
 
 
 
